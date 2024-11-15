@@ -103,6 +103,9 @@ endfun
 "- Command for it
 command! TR call TrimSpaces()
 
+" Smart case-sensitive search
+set ignorecase smartcase
+
 """""""""""""""""""""""
 """"""" PLUGINS """""""
 """""""""""""""""""""""
