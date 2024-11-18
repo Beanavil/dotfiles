@@ -20,3 +20,6 @@ set scroll-step 100
 # Backward search for vimtex
 set synctex true
 set synctex-editor-command "nvr --remote-silent +%{line} %{input}"
+
+# Copy to system clipboard
+set selection-clipboard clipboard
