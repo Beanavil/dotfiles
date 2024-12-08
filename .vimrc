@@ -106,6 +106,11 @@ command! TR call TrimSpaces()
 " Smart case-sensitive search
 set ignorecase smartcase
 
+" Don't copy deleted text by deleting to the black hole register instead of the unnamed one
+nnoremap x "_x
+nnoremap dd "_dd
+nnoremap D "_D
+
 """""""""""""""""""""""
 """"""" PLUGINS """""""
 """""""""""""""""""""""
